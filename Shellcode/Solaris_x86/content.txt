@@ -1,0 +1,12 @@
+shellcode-111:       Solaris/x86 - setuid(0)&amp;execve(/bin/cat, /etc/shadow)&amp;exit(0) - 59 bytes
+shellcode-112:       Solaris/x86 - setuid(0)&amp;execve(//bin/sh)&amp;exit(0) - 39 bytes
+shellcode-113:       Solaris/x86 - execve /bin/sh toupper evasion - 84 bytes
+shellcode-114:       Solaris/x86 - add services and execve inetd - 201 bytes
+shellcode-386:       Solaris/x86 - execve /bin/sh - 43 bytes
+shellcode-613:       Solaris/x86 - execve(/bin/sh, /bin/sh, NULL) - 27 bytes
+shellcode-614:       Solaris/x86 - Halt shellcode - 36 bytes
+shellcode-615:       Solaris/x86 - Reboot() - 37 bytes
+shellcode-616:       Solaris/x86 - Remote Download file - 79 bytes
+shellcode-640:       Solaris/x86 - SystemV killall command - 39 bytes
+shellcode-645:       Solaris/x86 - Sync() &amp; reboot() &amp; exit(0) - 48 bytes
+shellcode-769:       Solaris/x86 - setuid(0)  /bin/cat //etc/shadow   - 61

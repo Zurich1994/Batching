@@ -1,0 +1,3 @@
+shellcode-134:       Alpha - /bin/sh - 80 bytes
+shellcode-135:       Alpha - setuid() - 156 bytes
+shellcode-136:       Alpha - execve() - 112 bytes

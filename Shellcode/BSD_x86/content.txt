@@ -1,0 +1,8 @@
+shellcode-356:       BSD/x86 - break chroot 45 bytes
+shellcode-362:       BSD/x86 - execve /bin/sh Crypt /bin/sh - 49 bytes
+shellcode-601:       BSD/x86 - bindshell on port 2525 - 167 bytes
+shellcode-814:       BSD/x86 - setreuid(geteuid(), geteuid()) and execve(/bin/sh, /bin/sh, 0)
+shellcode-91:       BSD/x86 - cat /etc/master.passwd &amp; mail root@localhost - 92 bytes
+shellcode-92:       BSD/x86 - execve(/bin/sh) &amp; setuid(0) - 29 bytes
+shellcode-93:       BSD/x86 - execve(/bin/sh) - 27 bytes
+shellcode-94:       BSD/x86 - setuid/portbind - 94 bytes

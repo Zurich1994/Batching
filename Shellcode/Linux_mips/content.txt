@@ -1,0 +1,9 @@
+shellcode-782:       Linux/mips - execve(/bin/sh, */bin/sh, 0) - 52 bytes
+shellcode-792:       Linux/mips - execve /bin/sh - 48 bytes
+shellcode-793:       Linux/mips - add user(UID 0) with password - 164 bytes
+shellcode-794:       Linux/mips - connect back shellcode (port 0x7a69) - 168 bytes
+shellcode-795:       Linux/mips - reboot() - 32 bytes
+shellcode-79:       Linux/mips - execve(/bin/sh) - 56 bytes
+shellcode-80:       Linux/mips - execve(\\\&quot;/bin/sh\\\&quot;,[\\\&quot;/bin/sh\\\&quot;],[]); - 60 bytes
+shellcode-81:       Linux/mips - port bind 4919 - 276 bytes
+shellcode-860:       Linux/mips - Reverse Shell Shellcode - 200 bytes

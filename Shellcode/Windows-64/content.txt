@@ -1,0 +1,2 @@
+shellcode-150:       Windows-64 - (URLDownloadToFileA) download and execute - 218+ bytes
+shellcode-627:       Windows-64 - Windows Seven x64 (cmd) - 61 bytes

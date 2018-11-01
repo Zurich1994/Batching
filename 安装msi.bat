@@ -1,0 +1,1 @@
+msiexec /i C:\Users\john\Desktop\node-v5.6.0-x64.msi

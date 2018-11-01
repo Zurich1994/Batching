@@ -1,0 +1,2 @@
+shellcode-240:       Solaris/mips - download and execute - 278 bytes
+shellcode-241:       Solaris/mips - connect-back (with XNOR encoded session) - 600 bytes

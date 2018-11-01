@@ -1,0 +1,4 @@
+shellcode-82:       Linux/sparc - setreuid(0,0)&amp;standard execve() - 72 bytes
+shellcode-83:       Linux/sparc - [setreuid(0,0); execve() of /bin/sh]  - 64 bytes
+shellcode-84:       Linux/sparc - Portbind 8975/tcp - 284 bytes
+shellcode-85:       Linux/sparc - connect back - 216 bytes

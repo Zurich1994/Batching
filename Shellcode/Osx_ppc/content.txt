@@ -1,0 +1,12 @@
+shellcode-120:       Osx/ppc - shellcode execve(/bin/sh)
+shellcode-121:       Osx/ppc - remote findsock by recv() key shellcode
+shellcode-122:       Osx/ppc - Single Reverse TCP
+shellcode-123:       Osx/ppc - stager sock find peek
+shellcode-124:       Osx/ppc - stager sock find
+shellcode-125:       Osx/ppc - stager sock reverse
+shellcode-126:       Osx/ppc - create /tmp/suid - 122 bytes
+shellcode-127:       Osx/ppc - add inetd backdoor - 222 bytes
+shellcode-128:       Osx/ppc - Add user r00t - 219 bytes
+shellcode-129:       Osx/ppc - execve(\\\&quot;/bin/sh\\\&quot;,[\\\&quot;/bin/sh\\\&quot;],NULL)&amp; exit() - 72 bytes
+shellcode-130:       Osx/ppc - sync(), reboot() - 32 bytes
+shellcode-312:       Osx/ppc - Bind Shell PORT TCP/8000 - encoder OSXPPCLongXOR - 300 bytes

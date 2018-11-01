@@ -1,0 +1,4 @@
+shellcode-736:       Osx/x86-64 - setuid shell x86_64 - 51 bytes
+shellcode-761:       Osx/x86-64 - reverse tcp shellcode - 131 bytes
+shellcode-777:       Osx/x86-64 - universal ROP shellcode
+shellcode-786:       Osx/x86-64 - universal OSX dyld ROP shellcode

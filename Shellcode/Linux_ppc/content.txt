@@ -1,0 +1,4 @@
+shellcode-86:       Linux/ppc - execve /bin/sh - 60 bytes
+shellcode-87:       Linux/ppc - connect back execve /bin/sh - 240 bytes
+shellcode-88:       Linux/ppc - read &amp; exec shellcode - 32 bytes
+shellcode-89:       Linux/ppc - execve /bin/sh - 112 bytes

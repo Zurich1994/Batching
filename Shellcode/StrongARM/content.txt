@@ -1,0 +1,3 @@
+shellcode-659:       StrongARM - execve() - 47 bytes
+shellcode-660:       StrongARM - setuid() - 20 bytes
+shellcode-661:       StrongARM - bind() portshell - 203 bytes

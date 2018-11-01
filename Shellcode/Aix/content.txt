@@ -1,0 +1,1 @@
+shellcode-132:       Aix - execve /bin/sh - 88 bytes

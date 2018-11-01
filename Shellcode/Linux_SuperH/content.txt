@@ -1,0 +1,5 @@
+shellcode-771:       Linux/SuperH - sh4 execve(/bin/sh, 0, 0) - 19 bytes
+shellcode-772:       Linux/SuperH - sh4 - setuid(0) - chmod(/etc/shadow, 0666) - exit(0) - 43 bytes
+shellcode-773:       Linux/SuperH - sh4 - add root user with password - 143 bytes
+shellcode-774:       Linux/SuperH - sh4 - Bind /bin/sh on port 31337
+shellcode-787:       Linux/SuperH - sh4 - setuid(0) ; execve(/bin/sh, NULL, NULL) - 27 bytes

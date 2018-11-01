@@ -1,0 +1,4 @@
+shellcode-163:       OpenBSD/x86 - execve(/bin/sh) - 23 bytes
+shellcode-164:       OpenBSD/x86 - portbind port 6969 - 148 bytes
+shellcode-165:       OpenBSD/x86 - add user w00w00 - 112 bytes
+shellcode-600:       OpenBSD/x86 - reboot() - 15 bytes

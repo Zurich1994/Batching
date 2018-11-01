@@ -1,0 +1,4 @@
+shellcode-108:       NetBSD/x86 - execve(/bin/sh) - 68 bytes
+shellcode-109:       NetBSD/x86 - setreuid(0, 0); execve(/bin//sh, ..., NULL); - 29 bytes
+shellcode-110:       NetBSD/x86 - callback (port 6666) - 83 bytes
+shellcode-803:       NetBSD/x86 - kill all processes shellcode - 23 bytes

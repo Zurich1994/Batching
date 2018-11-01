@@ -1,0 +1,4 @@
+shellcode-137:       Irix - stdin-read shellcode - 40 bytes
+shellcode-138:       Irix - Bind Port - 364 bytes
+shellcode-139:       Irix - execve(/bin/sh -c) - 72 bytes
+shellcode-140:       Irix - execve(/bin/sh) - 68 bytes

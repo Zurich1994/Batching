@@ -1,0 +1,22 @@
+shellcode-100:       FreeBSD/x86 - execve /tmp/sh - 34 bytes
+shellcode-101:       FreeBSD/x86 - reboot(RB_AUTOBOOT) - 7 bytes
+shellcode-102:       FreeBSD/x86 - kill all processes - 12 bytes
+shellcode-166:       FreeBSD/x86 - connect back.send.exit /etc/passwd - 112 bytes
+shellcode-167:       FreeBSD/x86 - reverse connect dl(shellcode) and execute, exit - 90 bytes
+shellcode-168:       FreeBSD/x86 - encrypted shellcode /bin/sh 48 bytes
+shellcode-170:       FreeBSD/x86 - execve /bin/sh 23 bytes
+shellcode-171:       FreeBSD/x86 - execve /bin/sh 37 bytes
+shellcode-172:       FreeBSD/x86 - kldload /tmp/o.o - 74 bytes
+shellcode-570:       FreeBSD/x86 - portbind shellcode - 167 bytes
+shellcode-609:       FreeBSD/x86 - 8.0-RELEASE/x86 - //sbin/pfctl -F all Shellcode 47 Bytes
+shellcode-674:       FreeBSD/x86 - bind sh port 41254 - 115 bytes
+shellcode-675:       FreeBSD/x86 - /bin/sh - 23 bytes
+shellcode-676:       FreeBSD/x86 - Connect Back Port 6969 - 133 bytes
+shellcode-677:       FreeBSD/x86 - reboot() - 15 bytes
+shellcode-747:       FreeBSD/x86 - - connect back /bin/sh. 81 bytes
+shellcode-748:       FreeBSD/x86 - - portbind shell + fork - 111 bytes
+shellcode-749:       FreeBSD/x86 - execv(/bin/sh) - 23 bytes
+shellcode-96:       FreeBSD/x86 - setreuid(0, 0) &amp; execve(pfctl -d) - 56 bytes
+shellcode-97:       FreeBSD/x86 - setuid(0)&amp;execve({\\\&quot;//sbin/ipf\\\&quot;,\\\&quot;-Faa\\\&quot;,0},0); - 57 bytes
+shellcode-98:       FreeBSD/x86 - reverse portbind /bin/sh - 89 bytes
+shellcode-99:       FreeBSD/x86 - execve(/bin/cat &amp; /etc/master.passwd) - 65 bytes

@@ -1,0 +1,38 @@
+shellcode-602:       Linux/x86-64 - reboot(POWER_OFF) - 19 bytes
+shellcode-603:       Linux/x86-64 - execve(/bin/sh); - 30 bytes
+shellcode-605:       Linux/x86-64 - sethostname() &amp; killall - 33 bytes
+shellcode-651:       Linux/x86-64 - setuid(0) &amp; reboot - 51 bytes
+shellcode-652:       Linux/x86-64 - setuid(0) &amp; chmod (/etc/passwd, 0777) &amp; exit(0) - 63 byes
+shellcode-654:       Linux/x86-64 - Disable ASLR Security - 143 bytes
+shellcode-658:       Linux/x86-64 - Add root user with password - 390 bytes
+shellcode-683:       Linux/x86-64 - execve(/sbin/iptables, [/sbin/iptables, -F], NULL) - 49 bytes
+shellcode-76:       Linux/x86-64 - execve(\\\&quot;/bin/sh\\\&quot;, [\\\&quot;/bin/sh\\\&quot;], NULL) - 33 bytes
+shellcode-77:       Linux/x86-64 - setuid(0) + execve(/bin/sh) 49 bytes
+shellcode-78:       Linux/x86-64 - bindshell port:4444 shellcode - 132 bytes
+shellcode-801:       Linux/x86-64 - add user with passwd - 189 bytes
+shellcode-806:       Linux/x86-64 - Execute /bin/sh - 27 bytes
+shellcode-815:       Linux/x86-64 - Linux x86-64 setreuid (0,0) &amp; execve(/bin/ash,NULL,NULL) + XOR encoded - 85 bytes
+shellcode-816:       Linux/x86-64 - Linux x86-64 setreuid (0,0) &amp; execve(/bin/csh, [/bin/csh, NULL]) + XOR encoded - 87 bytes
+shellcode-817:       Linux/x86-64 - Linux x86-64 setreuid (0,0) &amp; execve(/bin/ksh, [/bin/ksh, NULL]) + XOR encoded - 87 bytes
+shellcode-818:       Linux/x86-64 - Linux x86-64 setreuid (0,0) &amp; execve(/bin/zsh, [/bin/zsh, NULL]) + XOR encoded - 87 bytes
+shellcode-822:       Linux/x86-64 - bind-shell with netcat - 131 bytes
+shellcode-823:       Linux/x86-64 - connect back shell with netcat - 109 bytes
+shellcode-857:       Linux/x86-64 - Reverse TCP shell - 118 bytes
+shellcode-858:       Linux/x86-64 - TCP bind shell - 150 bytes
+shellcode-859:       Linux/x86-64 - shell bind tcp random port - 57 bytes
+shellcode-867:       Linux/x86-64 - Reads data from /etc/passwd to /tmp/outfile - 118 bytes
+shellcode-870:       Linux/x86-64 - TCP bind shell with password - 175 bytes
+shellcode-871:       Linux/x86-64 - TCP reverse shell with password - 138 bytes
+shellcode-873:       Linux/x86-64 - TCP Bind 4444 with password - 173 bytes
+shellcode-877:       Linux/x86-64 - shutdown -h now - 65 bytes
+shellcode-878:       Linux/x86-64 - Read /etc/passwd - 82 bytes
+shellcode-879:       Linux/x86-64 - Add user and password with echo cmd - 273 bytes
+shellcode-880:       Linux/x86-64 - Add user and password with open,write,close - 358 bytes
+shellcode-888:       Linux/x86-64 - Add root - Polymorphic - 273
+shellcode-889:       Linux/x86-64 - Password Protected Bind Shell - 147 bytes
+shellcode-890:       Linux/x86-64 - Password Protected Reverse Shell - 136 bytes
+shellcode-891:       Linux/x86-64 - Read password - 105 bytes
+shellcode-892:       Linux/x86-64 - Shutdown - 64 bytes
+shellcode-894:       Linux/x86-64 - access() Egghunter - 49 bytes
+shellcode-895:       Linux/x86-64 - Connect Back Shellcode - 139 bytes
+shellcode-896:       Linux/x86-64 - Add map in /etc/hosts file - 110 bytes

@@ -1,0 +1,1 @@
+shellcode-131:       Cso/x86 - execve(/bin/sh, ..., NULL) - 43 bytes

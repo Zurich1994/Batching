@@ -1,0 +1,271 @@
+shellcode-141:       Linux/x86 - execve(/bin/sh) - 43 bytes
+shellcode-160:       Linux/x86 - IsDebuggerPresent ShellCode (NT/XP) - 39 bytes
+shellcode-169:       Linux/x86 - bind port:4883 with auth shellcode
+shellcode-204:       Linux/x86 - execve read shellcode - 92 bytes
+shellcode-205:       Linux/x86 - iopl(3); asm(cli); while(1){} - 12 bytes
+shellcode-206:       Linux/x86 - connect back, download a file and execute - 149 bytes
+shellcode-207:       Linux/x86 - connect back&amp;send&amp;exit /etc/shadow - 155 byte
+shellcode-208:       Linux/x86 - Write FS PHP Connect Back Utility Shellcode - 508 bytes
+shellcode-209:       Linux/x86 - raw-socket ICMP/checksum shell - 235 bytes
+shellcode-210:       Linux/x86 - chmod(/etc/shadow, 0666) &amp; exit()
+shellcode-211:       Linux/x86 - add root user (r00t) with no password to /etc/passwd
+shellcode-212:       Linux/x86 - kill all processes - 11 bytes
+shellcode-213:       Linux/x86 - set system time to 0 &amp; exit
+shellcode-214:       Linux/x86 - forkbomb - 7 bytes
+shellcode-215:       Linux/x86 - setuid(0) + execve(/bin//sh, [/bin//sh], NULL) - 28 bytes
+shellcode-216:       Linux/x86 - setreuid(0, 0) + execve(/bin//sh, [/bin//sh, -c, cmd], NULL);
+shellcode-217:       Linux/x86 - setuid/portbind port 31337 TCP - 96 bytes
+shellcode-218:       Linux/x86 - re-use of (/bin/sh) string in .rodata - 16 bytes
+shellcode-219:       Linux/x86 - stdin re-open and /bin/sh execute
+shellcode-220:       Linux/x86 - setresuid(0,0,0)-/bin/sh - 35 bytes
+shellcode-221:       Linux/x86 - rm -rf / which attempts to block the process from being stopped - 132 bytes
+shellcode-222:       Linux/x86 - setuid(0) + setgid(0) + execve(echo 0 &gt; /proc/sys/kernel/randomize_va_space)  - 79 bytes
+shellcode-223:       Linux/x86 - execve(/bin/sh, [/bin/sh, NULL]) + ZIP Header - 28 bytes
+shellcode-224:       Linux/x86 - execve(/bin/sh, [/bin/sh, NULL]) + RTF header - 30 bytes
+shellcode-225:       Linux/x86 - execve(/bin/sh, [/bin/sh, NULL]) + RIFF Header - 28 bytes
+shellcode-226:       Linux/x86 - execve(/bin/sh, [/bin/sh, NULL]) + Bitmap - 27 bytes
+shellcode-227:       Linux/x86 - HTTP/1.x GET, Downloads and JMP - 68 bytes+
+shellcode-228:       Linux/x86 - execve /bin/sh xored for Intel x86 CPUID 41 bytes
+shellcode-229:       Linux/x86 - execve(/bin/sh, [/bin/sh], NULL) / encoded by +1 - 39 bytes
+shellcode-230:       Linux/x86 - anti-debug trick (INT 3h trap) + execve(/bin/sh, [/bin/sh, NULL], NULL) - 39 bytes
+shellcode-231:       Linux/x86 - open cd-rom loop (follows /dev/cdrom symlink) - 39 bytes
+shellcode-232:       Linux/x86 - eject &amp; close cd-rom frenzy loop (follows /dev/cdrom symlink) - 45 bytes
+shellcode-233:       Linux/x86 - quick (yet conditional, eax != 0 and edx == 0) exit - 4 bytes
+shellcode-234:       Linux/x86 - cat /dev/urandom &gt; /dev/console, no real profit just for kicks - 63 bytes
+shellcode-235:       Linux/x86 - portbind (define your own port) - 84 bytes
+shellcode-236:       Linux/x86 - /bin/sh sysenter Opcode Array Payload - 23 Bytes
+shellcode-237:       Linux/x86 - execve() Diassembly Obfuscation Shellcode - 32 bytes
+shellcode-238:       Linux/x86 - SET_PORT() portbind - 100 bytes
+shellcode-239:       Linux/x86 - SET_IP() Connectback Shellcode - 82 bytes
+shellcode-242:       Linux/x86 - Connect Back shellcode - 90 bytes
+shellcode-243:       Linux/x86 - socket-proxy - 372 bytes
+shellcode-244:       Linux/x86 - examples of long-term payloads hide-wait-change - 187 bytes+
+shellcode-245:       Linux/x86 - examples of long-term payloads hide-wait-change (.s)
+shellcode-246:       Linux/x86 - alpha-numeric - 64 bytes
+shellcode-247:       Linux/x86 - Alpha-Numeric using IMUL Method - 88 bytes
+shellcode-248:       Linux/x86 - Radically Self Modifying Code - execve &amp; _exit() - 70 bytes
+shellcode-249:       Linux/x86 - Magic Byte Self Modifying Code for surviving - execve() _exit() - 76 bytes
+shellcode-250:       Linux/x86 - setreuid(0,0) + execve(/bin/sh, [/bin/sh, NULL])
+shellcode-251:       Linux/x86 - setuid(0) + setgid(0) + execve(\\\&quot;/bin/sh\\\&quot;, [\\\&quot;/bin/sh\\\&quot;, NULL]) - 37 bytes
+shellcode-252:       Linux/x86 - portbind port 64713 - 86 bytes
+shellcode-253:       Linux/x86 - Password Authentication portbind port 64713/tcp - 166 bytes
+shellcode-254:       Linux/x86 - SWAP store - 99 bytes
+shellcode-255:       Linux/x86 - SWAP restore - 109 bytes
+shellcode-256:       Linux/x86 - execve /bin/sh anti-ids 40 bytes
+shellcode-257:       Linux/x86 - read(0,buf,2541); chmod(buf,4755); - 23 bytes
+shellcode-258:       Linux/x86 - if(read(fd,buf,512)&lt;=2) _exit(1) else buf(); - 29 bytes
+shellcode-259:       Linux/x86 - dup2(0,0); dup2(0,1); dup2(0,2); 15 bytes
+shellcode-261:       Linux/x86 - setreuid &amp; execve - 31 bytes
+shellcode-311:       Linux/x86 - Add User USER=t00r PASS=t00r - Encoder PexFnstenvSub - 116 bytes
+shellcode-352:       Linux/x86 - Shellcode Polymorphic chmod(/etc/shadow,666) &amp; exit() - 54 bytes
+shellcode-353:       Linux/x86 - add user t00r ENCRYPT 116 bytes
+shellcode-354:       Linux/x86 - chmod 666 shadow ENCRYPT 75 bytes
+shellcode-355:       Linux/x86 - chmod 666 /etc/shadow 41 bytes
+shellcode-357:       Linux/x86 - portbind a shell in port 5074 - 92 bytes
+shellcode-358:       Linux/x86 - execve /bin/sh encrypted 58 bytes
+shellcode-360:       Linux/x86 - back-connect TCP/2222 - 93 bytes
+shellcode-361:       Linux/x86 - iptables -F - 58 bytes
+shellcode-363:       Linux/x86 - break chroot execve /bin/sh - 80 bytes
+shellcode-364:       Linux/x86 - chroot()/execve() code
+shellcode-365:       Linux/x86 - iptables -F - 49 bytes
+shellcode-366:       Linux/x86 - Bindport TCP/3879
+shellcode-367:       Linux/x86 - Reverse Telnet
+shellcode-368:       Linux/x86 - iptables -F - 45 bytes
+shellcode-369:       Linux/x86 - shared memory exec - 50 bytes
+shellcode-370:       Linux/x86 - Bindshell TCP/5074 - 226 bytes
+shellcode-399:       Linux/x86 - setreuid(geteuid(),geteuid()),execve(&quot;/bin/sh&quot;,0,0) - 34bytes
+shellcode-407:       Linux/x86 - Add root user /etc/passwd - 104 bytes
+shellcode-458:       Linux/x86 - reboot() polymorphic shellcode - 57 bytes
+shellcode-465:       Linux/x86 - disables shadowing - 42 bytes
+shellcode-466:       Linux/x86 - setuid() &amp; execve() - 27 bytes
+shellcode-470:       Linux/x86 - exit(0) 3 bytes or exit(1) 4 bytes
+shellcode-472:       Linux/x86 - setuid(0) &amp; execve(/bin/sh,0) - 25 bytes
+shellcode-473:       Linux/x86 - setuid(0), setgid(0) &amp; execve(/bin/sh,[/bin/sh,NULL]) - 33 bytes
+shellcode-476:       Linux/x86 - execve(/sbin/shutdown,/sbin/shutdown 0) - 36 bytes
+shellcode-477:       Linux/x86 - execve(/sbin/reboot,/sbin/reboot) - 28 bytes
+shellcode-481:       Linux/x86 - Port Bind 4444 ( xor-encoded ) - 152 bytes
+shellcode-483:       Linux/x86 - execve(/sbin/halt,/sbin/halt) - 27 bytes
+shellcode-490:       Linux/x86 - killall5 polymorphic shellcode - 61 bytes
+shellcode-491:       Linux/x86 - /bin/sh polymorphic shellcode - 48 bytes
+shellcode-492:       Linux/x86 - Polymorphic shellcode for disable Network Card - 75 bytes
+shellcode-501:       Linux/x86 - listens for shellcode on tcp/5555 and jumps to it - 83 bytes
+shellcode-505:       Linux/x86 - Self-modifying ShellCode for IDS evasion
+shellcode-506:       Linux/x86 - shellcode that forks a HTTP Server on port tcp/8800 - 166 bytes
+shellcode-510:       Linux/x86 - Linux/x86 - pacman -R &lt;package&gt; - 59 bytes
+shellcode-511:       Linux/x86 - pacman -S &lt;package&gt; (default package: backdoor)  - 64 bytes
+shellcode-515:       Linux/x86 - portbind /bin/sh (port 64713) - 83 bytes
+shellcode-516:       Linux/x86 - setuid(0) &amp; execve(/bin/sh,0,0) - 28 bytes
+shellcode-517:       Linux/x86 - execve(/bin/sh,0,0) - 21 bytes
+shellcode-51:       Linux/x86 - /bin/cp /bin/sh /tmp/katy &amp; chmod 4555 - 126 bytes
+shellcode-527:       Linux/x86 - ip6tables -F - 47 bytes
+shellcode-528:       Linux/x86 - polymorphic ip6tables -F - 71 bytes
+shellcode-52:       Linux/x86 - kill snort - 151 bytes
+shellcode-53:       Linux/x86 - symlink /bin/sh xoring - 56 bytes
+shellcode-540:       Linux/x86 - hence dropping a SUID root shell in /tmp - 126 bytes
+shellcode-541:       Linux/x86 - Audio (knock knock knock) via /dev/dsp+setreuid(0,0)+execve() - 566 bytes
+shellcode-542:       Linux/x86 - mkdir() &amp; exit() - 36 bytes
+shellcode-543:       Linux/x86 - add a passwordless local root account w000t - 177 bytes
+shellcode-544:       Linux/x86 - execve of /sbin/ipchains -F -  70 bytes
+shellcode-545:       Linux/x86 - execve() of /sbin/iptables -F - 70 bytes
+shellcode-546:       Linux/x86 - execve of /bin/sh /tmp/p00p - 70 bytes
+shellcode-547:       Linux/x86 - execve()/bin/ash; exit; - 34 bytes
+shellcode-548:       Linux/x86 - adds a root user no-passwd to /etc/passwd - 83 bytes
+shellcode-549:       Linux/x86 - setuid(); execve(); exit(); - 44 bytes
+shellcode-54:       Linux/x86 - upload &amp; exec - 189 bytes
+shellcode-550:       Linux/x86 - chmod(//bin/sh ,04775); set sh +s - 31 bytes
+shellcode-551:       Linux/x86 - setresuid(0,0,0); execve /bin/sh; exit; - 41 bytes
+shellcode-552:       Linux/x86 - connect back shellcode (port=0xb0ef) - 131 bytes
+shellcode-553:       Linux/x86 - forking portbind shellcode - port=0xb0ef(45295) - 200 bytes
+shellcode-554:       Linux/x86 - /sbin/iptables --flush - 69 bytes
+shellcode-555:       Linux/x86 - execve() - 51bytes
+shellcode-556:       Linux/x86 - chmod(/etc/shadow, 0666) &amp; exit() - 33 bytes
+shellcode-557:       Linux/x86 - setuid(0) &amp; execve(/bin/cat /etc/shadow) - 49 bytes
+shellcode-558:       Linux/x86 - setuid(0) &amp; execve(/sbin/poweroff -f) - 47 bytes
+shellcode-55:       Linux/x86 - exit(1) - 7 bytes
+shellcode-560:       Linux/x86 - unlink(/etc/passwd) &amp; exit() - 35 bytes
+shellcode-561:       Linux/x86 - append /etc/passwd &amp; exit() - 107 bytes
+shellcode-563:       Linux/x86 - eject /dev/cdrom - 42 bytes
+shellcode-564:       Linux/x86 - kill all processes - 9 bytes
+shellcode-565:       Linux/x86 - overwrite MBR on /dev/sda with LOL! - 43 bytes
+shellcode-566:       Linux/x86 - chmod 666 /etc/shadow - 27 bytes
+shellcode-56:       Linux/x86 - socket-proxy - 372 bytes
+shellcode-571:       Linux/x86 - bin/cat /etc/passwd - 43 bytes
+shellcode-574:       Linux/x86 - /bin/sh - 8 bytes
+shellcode-575:       Linux/x86 - execve /bin/sh - 21 bytes
+shellcode-578:       Linux/x86 - disabled modsecurity - 64 bytes
+shellcode-57:       Linux/x86 - execve(\\\&quot;rm -rf /\\\&quot;) - 45 bytes
+shellcode-584:       Linux/x86 - chmod(/etc/shadow, 0666) - 36 bytes
+shellcode-585:       Linux/x86 - execve(/bin/sh) - 25 bytes
+shellcode-586:       Linux/x86 - DoS-Badger-Game - 6 bytes
+shellcode-587:       Linux/x86 - SLoc-DoS shellcode - 55 bytes 
+shellcode-589:       Linux/x86 - execve(a-&gt;/bin/sh) - 14 bytes
+shellcode-58:       Linux/x86 - execve(\\\&quot;/bin//sh/\\\&quot;,[\\\&quot;/bin//sh\\\&quot;],NULL) - 22 bytes
+shellcode-590:       Linux/x86 - chmod(/etc/shadow, 0777) - 33 bytes
+shellcode-591:       Linux/x86 - fork() - 6 bytes
+shellcode-593:       Linux/x86 - chmod(/etc/shadow, 0777) - 29 bytes
+shellcode-596:       Linux/x86 - polymorphic forkbombe - 30 bytes
+shellcode-597:       Linux/x86 - setreud(getuid(), getuid()) &amp; execve(/bin/sh) - 34 bytes
+shellcode-598:       Linux/x86 - setuid(0) + execve(/bin/sh,...) - 29 bytes
+shellcode-599:       Linux/x86 - setuid(0) ^ execve(/bin/sh, 0, 0) - 27 bytes
+shellcode-59:       Linux/x86 - HTTP/1.x GET, Downloads &amp; execve() - 111 bytes+
+shellcode-604:       Linux/x86 - sends Phuck3d! to all terminals - 60 bytes
+shellcode-606:       Linux/x86 - execve(/bin/bash, [/bin/bash, -p], NULL) - 33 bytes
+shellcode-607:       Linux/x86 - polymorphic execve(/bin/bash, [/bin/bash, -p], NULL)  - 57 bytes
+shellcode-608:       Linux/x86 - setuid(0) + chmod(/etc/shadow, 0666) - 37 Bytes
+shellcode-60:       Linux/x86 - System Beep - 45 bytes
+shellcode-610:       Linux/x86 - pwrite(/etc/shadow, hash, 32, 8) - 89 Bytes
+shellcode-611:       Linux/x86 - Remote file Download - 42 bytes
+shellcode-617:       Linux/x86 - Disable randomize stack addresse - 106 bytes
+shellcode-619:       Linux/x86 - alphanuméric Bomb FORK Shellcode - 117 Bytes
+shellcode-61:       Linux/x86 - setuid(0) &amp; execve(/bin/sh,0,0) - 28 bytes
+shellcode-621:       Linux/x86 - cdrom ejecting shellcode - 46 bytes
+shellcode-622:       Linux/x86 - sys_sethostname(PwNeD !!, 8) - 32 bytes
+shellcode-623:       Linux/x86 - sys_exit(0) - 8 bytes
+shellcode-624:       Linux/x86 - Polymorphic - setuid(0) + chmod(/etc/shadow, 0666) - 61 Bytes
+shellcode-625:       Linux/x86 - sys_chmod(/etc/shadow, 599) - 39 bytes
+shellcode-626:       Linux/x86 - sys_kill(-1,9) - 11 bytes
+shellcode-62:       Linux/x86 - edit /etc/sudoers for full access - 86 bytes
+shellcode-630:       Linux/x86 - sys_sync - 6 bytes
+shellcode-631:       Linux/x86 - sys_setuid(0) &amp; sys_setgid(0) &amp; execve (/bin/sh) -  39 bytes
+shellcode-632:       Linux/x86 - sys_execve(/bin/sh, -c, ping localhost) - 55 bytes
+shellcode-633:       Linux/x86 - sys_rmdir(/tmp/willdeleted) - 41 bytes
+shellcode-634:       Linux/x86 - unlink /etc/shadow - 33 bytes
+shellcode-636:       Linux/x86 - setdomainname to (th1s s3rv3r h4s b33n h1j4ck3d !!)
+shellcode-638:       Linux/x86 - hard reboot (without any message) and data will be lost - 29 bytes
+shellcode-639:       Linux/x86 - hard reboot (without any message) and data not lost - 33 bytes
+shellcode-63:       Linux/x86 - append rsa key to /root/.ssh/authorized_keys2 - 295 bytes
+shellcode-641:       Linux/x86 - force unmount /media/disk - 33 bytes
+shellcode-642:       Linux/x86 - chown root:root /bin/sh - 48 bytes
+shellcode-643:       Linux/x86 - give all user root access when execute /bin/sh - 45 bytes
+shellcode-64:       Linux/x86 - Connect-Back port UDP/54321 - 151 bytes
+shellcode-650:       Linux/x86 - chmod(/etc/shadow, 0666) ASCII - 443 bytes
+shellcode-653:       Linux/x86 - polymorphic cdrom ejecting - 74 bytes
+shellcode-655:       Linux/x86 - Polymorphic bindport to 31337 with setreuid (0,0) - 131 bytes
+shellcode-656:       Linux/x86 - Polymorphic bindport to 13123 - 125 bytes
+shellcode-65:       Linux/x86 - ipchains -F - 40 bytes
+shellcode-66:       Linux/x86 - Kill service apache2 + pure-ftpd + sshd - 81 bytes
+shellcode-672:       Linux/x86 - bind sh@64533 - 97 bytes
+shellcode-678:       Linux/x86 - bind port to 6678 XOR encoded polymorphic - 125 bytes
+shellcode-679:       Linux/x86 - nc -lp 31337 -e /bin//sh polymorphic - 91 bytes
+shellcode-67:       Linux/x86 - Ifconfig eth0 down - 51 bytes
+shellcode-682:       Linux/x86 - Find all writeable folder in filesystem linux polymorphic shellcode
+shellcode-684:       Linux/x86 - netcat bindshell port 8080 - 75 bytes
+shellcode-685:       Linux/x86 - netcat connect back port 8080 - 76 bytes
+shellcode-68:       Linux/x86 - Shutdown computer - 51 bytes
+shellcode-690:       Linux/x86 - /bin/sh Null-Free Polymorphic - 46 bytes
+shellcode-69:       Linux/x86 - Push Reboot() - 30 bytes
+shellcode-70:       Linux/x86 - SystemV killall command - 34 bytes
+shellcode-71:       Linux/x86 - chmod() /etc/shadow 666 &amp; exit() - 30 bytes
+shellcode-72:       Linux/x86 - setuid(0) &amp; chmod(\\\&quot;/tmp\\\&quot;,111) &amp; exit(0) - 25 bytes
+shellcode-73:       Linux/x86 - File Reader /etc/passwd - 65 bytes
+shellcode-740:       Linux/x86 - ///sbin/iptables -POUTPUT DROP - 60 bytes
+shellcode-741:       Linux/x86 - /usr/bin/killall snort - 46 bytes
+shellcode-74:       Linux/x86 - Perl script execution 99 bytes + script length
+shellcode-752:       Linux/x86 - execve (/bin/sh) - 21 Bytes
+shellcode-756:       Linux/x86 - execve(/bin/dash) - 49 bytes
+shellcode-757:       Linux/x86 - netcat bindshell port 6666 - 69 bytes
+shellcode-758:       Linux/x86 - execve(/bin/cat, /etc/shadow, NULL) - 42 bytes
+shellcode-75:       Linux/x86 - File unlinker 18 bytes + file path length
+shellcode-765:       Linux/x86 - /etc/init.d/apparmor teardown - 53 bytes
+shellcode-770:       Linux/x86 - ConnectBack with SSL connection - 422 bytes
+shellcode-775:       Linux/x86 - Surprise ! ! ! - 361 bytes
+shellcode-784:       Linux/x86 - egghunt shellcode -  29 bytes
+shellcode-798:       Linux/x86 - setuid(0)+setgid(0)+add user iph without password to /etc/passwd - 124 bytes
+shellcode-799:       Linux/x86 - Search php,html writable files and add your code - 380+ bytes
+shellcode-804:       Linux/x86 - nc -lvve/bin/sh -p13377 - 62 bytes
+shellcode-805:       Linux/x86 - [setreuid()] -&gt; [/sbin/iptables -F] -&gt; [exit(0)] - 76 bytes
+shellcode-807:       Linux/x86 - setreuid (0,0) &amp; execve(/bin/ash,NULL,NULL) + XOR encoded - 58 bytes
+shellcode-808:       Linux/x86 - setreuid (0,0) &amp; execve(/bin/csh, [/bin/csh, NULL]) + XOR encoded - 53 bytes
+shellcode-809:       Linux/x86 - setreuid (0,0) &amp; execve(/bin/ksh, [/bin/ksh, NULL]) + XOR encoded - 53 bytes
+shellcode-810:       Linux/x86 - Linux x86 setreuid (0,0) &amp; execve(/bin/zsh, [/bin/zsh, NULL]) + XOR encoded - 53 bytes
+shellcode-811:       Linux/x86 - execve(/bin/sh) - 28 bytes
+shellcode-812:       Linux/x86 - chmod 666 /etc/passwd &amp; /etc/shadow - 57 bytes
+shellcode-813:       Linux/x86 - ASLR deactivation - 83 bytes
+shellcode-824:       Linux/x86 - stagger that reads second stage shellcode (127 bytes maximum) from stdin - 14 bytes
+shellcode-825:       Linux/x86 - iptables --flush - 43 bytes
+shellcode-827:       Linux/x86 - execve /bin/sh shellcode - 23 bytes
+shellcode-828:       Linux/x86 - execve-chmod 0777 /etc/shadow - 57 bytes
+shellcode-829:       Linux/x86 - Remote Port forwarding - 87 bytes
+shellcode-831:       Linux/x86 - Force Reboot shellcode 36 bytes
+shellcode-832:       Linux/x86 - Bind TCP Port - with SO_REUSEADDR set (Avoiding SIGSEGV) - 103 bytes
+shellcode-833:       Linux/x86 - Shell Reverse TCP Shellcode - 72 bytes
+shellcode-834:       Linux/x86 - Shell Bind TCP Random Port - 65 bytes
+shellcode-835:       Linux/x86 - Shell Bind TCP (GetPC/Call/Ret Method) - 89 bytes
+shellcode-836:       Linux/x86 - Tiny Shell Bind TCP - 73 bytes
+shellcode-837:       Linux/x86 - Tiny Shell Bind TCP Random Port - 57 bytes
+shellcode-838:       Linux/x86 - Tiny Shell Reverse TCP - 67 bytes
+shellcode-839:       Linux/x86 - Egg Hunter Shellcode - 38 bytes
+shellcode-840:       Linux/x86 - Insertion Decoder Shellcode - 33+ bytes
+shellcode-841:       Linux/x86 - Tiny Execve sh Shellcode - 21 bytes
+shellcode-842:       Linux/x86 - Tiny read /etc/passwd file - 51 bytes
+shellcode-843:       Linux/x86 - Mutated Reboot - 55 bytes
+shellcode-844:       Linux/x86 - Mutated Fork Bomb - 15 bytes
+shellcode-845:       Linux/x86 - Mutated Execve Wget - 96 bytes
+shellcode-846:       Linux/x86 - Encrypted execve /bin/sh with uzumaki algorithm - 50 bytes
+shellcode-847:       Linux/x86 - TCP bind shell - 108 bytes
+shellcode-848:       Linux/x86 - Set /proc/sys/net/ipv4/ip_forward to 0 & exit() - 83 bytes
+shellcode-849:       Linux/x86 - reverse tcp bind shell - 92 bytes
+shellcode-850:       Linux/x86 - egghunter shellcode
+shellcode-851:       Linux/x86 - Obfuscated execve /bin/sh (30 bytes)
+shellcode-852:       Linux/x86 - Obfuscated tcp bind shell (112 bytes)
+shellcode-856:       Linux/x86 - Multi-Egghunter
+shellcode-861:       Linux/x86 - reads /etc/passwd and sends the content to 127.1.1.1 port 12345 - 111 bytes
+shellcode-862:       Linux/x86 - Download + chmod + exec - 108 bytes
+shellcode-863:       Linux/x86 - JMP-CALL-POP execve shell - 52 bytes
+shellcode-864:       Linux/x86 - Copy /etc/passwd to /tmp/outfile - 97 bytes
+shellcode-868:       Linux/x86 - shift-bit-encoder execve - 114 bytes
+shellcode-869:       Linux/x86 - JMP-FSTENV execve shell - 67 bytes
+shellcode-872:       Linux/x86 - /bin/nc -le /bin/sh -vp 17771 shellcode - 58 bytes
+shellcode-875:       Linux/x86 - chmod 0777 /etc/shadow (a bit obfuscated) Shellcode - 51 bytes
+shellcode-876:       Linux/x86 - shutdown -h now - 56 bytes
+shellcode-881:       Linux/x86 - sockfd trick + dup2(0,0), dup2(0,1), dup2(0,2) + execve /bin/sh - 50 bytes
+shellcode-882:       Linux/x86 - Shell Bind TCP Shellcode Port 1337 - 89 bytes
+shellcode-883:       Linux/x86 - Shell Reverse TCP Shellcode - 74 bytes
+shellcode-884:       Linux/x86 - Bind TCP stager with egghunter - 157 bytes
+shellcode-885:       Linux/x86 - chmod + Add new root user with password + exec sh - 378 bytes
+shellcode-886:       Linux/x86 - setreuid() + exec /usr/bin/python - 54 bytes
+shellcode-887:       Linux/x86 - Obfuscated Shellcode - chmod(/etc/{passwd,shadow}) - add new root user - exec /bin/sh - 512 bytes
+shellcode-893:       Linux/x86 - Add map in /etc/hosts file - 77 bytes
+shellcode-900:       Linux/x86 - ROT-7 Decoder execve - 74 bytes
+shellcode-902:       Linux/x86 - Followtheleader custom execve-shellcode Encoder/Decoder - 136 bytes
+shellcode-95:       Linux/x86 - setuid/execve - 30 bytes

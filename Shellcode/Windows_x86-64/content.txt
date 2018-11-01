@@ -1,0 +1,2 @@
+shellcode-898:       Windows/x86-64 - Add Admin, enable RDP, stop firewall and start terminal service - 1218 bytes
+shellcode-899:       Windows/x86-64 - Obfuscated Shellcode x86/x64 Download And Execute [Use PowerShell] - Generator

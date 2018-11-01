@@ -1,0 +1,6 @@
+shellcode-115:       Solaris/sparc - Bind /bin/sh TCP port 2001
+shellcode-116:       Solaris/sparc - execve(/bin/sh) - 52 bytes
+shellcode-117:       Solaris/sparc - portbind | port 6666 - 240 bytes
+shellcode-118:       Solaris/sparc - setreuid  - 56 bytes
+shellcode-313:       Solaris/sparc - Single bind TCP shell
+shellcode-385:       Solaris/sparc - setreuid(geteuid()), setregid(getegid()), execve /bin/sh

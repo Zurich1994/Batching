@@ -1,0 +1,64 @@
+shellcode-146:       Windows - XP download and exec source
+shellcode-147:       Windows - XP-sp1 portshell on port 58821 - 116 bytes
+shellcode-148:       Windows - telnetbind by winexec - 111 bytes
+shellcode-149:       Windows - XP sp2 (FR) Sellcode cmd.exe - 32 bytes
+shellcode-152:       Windows - Beep Shellcode (SP1/SP2) - 35 bytes
+shellcode-153:       Windows - IsDebuggerPresent ShellCode (NT/XP) - 39 bytes
+shellcode-156:       Windows - PEB!NtGlobalFlags shellcode - 14 bytes
+shellcode-157:       Windows - connectback, receive, save and execute shellcode
+shellcode-159:       Windows - Download and Execute Shellcode Generator
+shellcode-161:       Windows - Pop up message box (XP/SP2) - 110 bytes
+shellcode-162:       Windows - download &amp; exec shellcode - 226 bytes+
+shellcode-173:       Windows - Bind Shell (NT/XP/2000/2003)
+shellcode-174:       Windows - Vampiric Import Reverse Connect
+shellcode-175:       Windows - Create Admin User Account (NT/XP/2000) - 304 bytes
+shellcode-260:       Windows - PEB method (9x/NT/2k/XP)
+shellcode-387:       Windows - PEB method (9x/NT/2k/XP) - 31 bytes
+shellcode-388:       Windows - PEB method (9x/NT/2k/XP) - 29 bytes
+shellcode-389:       Windows - Reverse Generic Shellcode w/o Loader - 249 bytes
+shellcode-390:       Windows - useradd shellcode for russian systems - 318 bytes
+shellcode-391:       Windows - WinExec() Command Parameter - 104 bytes
+shellcode-392:       Windows - download and execute - 124 bytes
+shellcode-393:       Windows - PEB Kernel32.dll ImageBase Finder - 49 Bytes
+shellcode-394:       Windows - PEB Kernel32.dll ImageBase Finder Alphanumeric - 67 bytes
+shellcode-482:       Windows - XP/sp2 (EN) cmd.exe - 23 bytes
+shellcode-484:       Windows - null-free bindshell for Windows 5.0-6.0 all service packs
+shellcode-494:       Windows - sp3 (FR) Sleep - 14 bytes
+shellcode-513:       Windows - XP Pro Sp2 English Wordpad Shellcode - 15 bytes
+shellcode-526:       Windows - XP Pro Sp2 English Message-Box Shellcode - 16 Bytes
+shellcode-567:       Windows - Shellcode Collection - (calc) 19 bytes
+shellcode-568:       Windows - sp2 (En + Ar) cmd.exe - 23 bytes
+shellcode-569:       Windows - XP SP3 addFirewallRule
+shellcode-572:       Windows - Shellcode (cmd.exe) for XP SP3 English - 26 Bytes
+shellcode-573:       Windows - Shellcode (cmd.exe) for XP SP2 Turkish - 26 Bytes
+shellcode-576:       Windows - SP2 english ( calc.exe ) - 37 bytes
+shellcode-577:       Windows - SP3 english ( calc.exe ) - 37 bytes
+shellcode-579:       Windows - xp pro sp3 (calc) - 57 bytes
+shellcode-580:       Windows - XP Professional SP2 ita calc.exe - 36 bytes
+shellcode-581:       Windows - XP sp3 (Ru) WinExec+ExitProcess cmd shellcode - 12 bytes
+shellcode-612:       Windows - Xp Pro SP3 Fr (calc.exe) - 31 Bytes
+shellcode-648:       Windows - Allwin MessageBoxA - 238 bytes
+shellcode-662:       Windows - Allwin WinExec cmd.exe + ExitProcess Shellcode - 195 bytes
+shellcode-673:       Windows - Safari JS JITed shellcode - exec calc (ASLR/DEP bypass)
+shellcode-681:       Windows - Write-to-file Shellcode
+shellcode-691:       Windows - XP SP3 English MessageBoxA - 87 bytes
+shellcode-697:       Windows - Shellcode Checksum Routine
+shellcode-700:       Windows - null-free 32-bit Windows download and LoadLibrary shellcode - 164 bytes
+shellcode-701:       Windows - null-free 32-bit Windows shellcode that executes calc.exe - 100 bytes
+shellcode-702:       Windows - null-free 32-bit Windows shellcode that shows a message box - 140 bytes
+shellcode-703:       Windows - sp3 (Tr) MessageBoxA Shellcode - 109 bytes
+shellcode-704:       Windows - sp3 (Tr) calc.exe Shellcode 53 bytes
+shellcode-705:       Windows - sp3 (Tr) cmd.exe Shellcode 52 bytes
+shellcode-706:       Windows - sp3 (Tr) Add Admin Account Shellcode - 127 bytes
+shellcode-710:       Windows - sp3 (Tr) cmd.exe Shellcode - 42 bytes
+shellcode-714:       Windows - add new local administrator - 326 bytes
+shellcode-715:       Windows - pro sp3 (EN) - add new local administrator 113 bytes
+shellcode-739:       Windows - XP SP3 EN Calc Shellcode - 16 Bytes
+shellcode-751:       Windows - win32/xp pro sp3 MessageBox shellcode - 11 bytes
+shellcode-755:       Windows - eggsearch shellcode - 33 bytes
+shellcode-766:       Windows - Allwin WinExec add new local administrator + ExitProcess Shellcode - 272 bytes
+shellcode-767:       Windows - Vista/7/2008 - download and execute file via reverse DNS channel
+shellcode-776:       Windows - win32/PerfectXp-pc1/sp3 (Tr) Add Admin Shellcode - 112 bytes
+shellcode-785:       Windows - win32/PerfectXp-pc1/sp3 (Tr) Add Admin Shellcode - 112 bytes
+shellcode-802:       Windows - xp sp2 PEB ISbeingdebugged shellcode - 56 bytes
+shellcode-830:       Windows - XP PRO SP3 - Full ROP calc shellcode

@@ -1,0 +1,1 @@
+shellcode-692:       Osx/x86 - execve(/bin/sh) - 24 byte

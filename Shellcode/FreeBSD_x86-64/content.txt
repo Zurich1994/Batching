@@ -1,0 +1,5 @@
+shellcode-103:       FreeBSD/x86-64 - Execve /bin/sh - Anti-Debugging
+shellcode-104:       FreeBSD/x86-64 - execve /bin/sh shellcode 34 bytes
+shellcode-106:       FreeBSD/x86-64 - exec(\\\&quot;/bin/sh\\\&quot;) Shellcode - 31 bytes
+shellcode-865:       FreeBSD/x86-64 - bind_tcp with passcode - 127 bytes
+shellcode-866:       FreeBSD/x86-64 - execve - 28 bytes

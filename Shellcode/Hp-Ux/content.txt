@@ -1,0 +1,1 @@
+shellcode-133:       Hp-Ux - execve(/bin/sh) - 58 bytes
